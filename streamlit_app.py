@@ -104,6 +104,8 @@ if st.sidebar.button("Run"):
 else:
     st.write("No results yet. Click the run button!")
 
+st.markdown(<hr>__</hr>, unsafe_html_allowed=True)
+
 code = st.checkbox('Show app code')
 if code:
     st.code("""
