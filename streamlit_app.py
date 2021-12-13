@@ -12,7 +12,7 @@ import streamlit as st
 from atom import ATOMClassifier
 
 # Init srteamlit
-st.set_page_config(page_title='Brave bookmarks search',
+st.set_page_config(page_title='ATOM-ML demo',
                    page_icon='images/one.ico',
                    layout='wide',
                    initial_sidebar_state='expanded')
