@@ -46,7 +46,7 @@ models = {
     "et": st.sidebar.checkbox("Extra-Trees", False, "et"),
     "xgb": st.sidebar.checkbox("XGBoost", False, "xgb"),
     "lgb": st.sidebar.checkbox("LightGBM", False, "lgb"),
-    "catb": st.sidebar.checkbox("CatBoost", False, "catb"),
+    # "catb": st.sidebar.checkbox("CatBoost", False, "catb"),
 }
 
 # Page
