@@ -64,6 +64,8 @@ if data is not None:
     if st.checkbox('Show raw data'):
         st.write("Data preview:") #text
         st.dataframe(data.head())
+else:
+    st.warning('Please select a data source')
 
 st.header("Results")
 
