@@ -52,7 +52,7 @@ models = {
 # Page
 
 st.header("Data")
-st.write('Use provided dataset "weatheAUS.csv") or upload your own')
+st.write('Use provided dataset "weatheAUS.csv" or upload your own:')
 waus = st. checkbox('weatherAUS')
 if waus:
     data = './data/weatherAUS.csv'
