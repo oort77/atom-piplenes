@@ -52,7 +52,12 @@ models = {
 # Page
 
 st.header("Data")
-data = st.file_uploader("Upload data:", type="csv")
+st.write('Use provided dataset "weatheAUS.csv") or upload your own')
+waus = st. checkbox('weatherAUS')
+if waus:
+    data = './data/weatherAUS.csv'
+else:
+    data = st.file_uploader("Upload data:", type="csv")
 # If a dataset is uploaded, show a preview
 if data is not None:
     data = pd.read_csv(data)
